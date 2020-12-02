@@ -1,0 +1,27 @@
+﻿<Window x:Class="AutoItTools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoItTools"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel VerticalAlignment="Top" Margin="5,5,5,5" Grid.Column="0">
+                    <Button Content="COT Data" Height="30"/>
+        </StackPanel>
+        <ListBox Grid.Column="1" Margin="5,5,5,5">
+            <ListBoxItem>Idle...</ListBoxItem>
+        </ListBox>
+    </Grid>
+    
+
+   
+</Window>
